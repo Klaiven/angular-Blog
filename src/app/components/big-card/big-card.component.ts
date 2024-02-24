@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class BigCardComponent {
 
+  acessar(){
+    window.open('https://www.google.com', '_blank');
+  }
+
+
 }

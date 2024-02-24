@@ -2,6 +2,7 @@
     text-align: center;
 }
 .menu-title > h1{
+    font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
     margin: 15px;
 }
@@ -42,12 +43,5 @@
 @media (min-width: 1200px) {
     .menu-title > h1{
         font-size: 6rem;
-    }
-}
-
-/* SUPERIORES */
-@media (min-width: 1201px) {
-    .menu-title > h1{
-        font-size: 8rem;
     }
 }
