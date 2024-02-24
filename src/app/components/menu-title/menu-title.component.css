@@ -1,0 +1,53 @@
+.menu-title{
+    text-align: center;
+}
+.menu-title > h1{
+    font-size: 3rem;
+    margin: 15px;
+}
+.menu-title > hr{
+    margin: 10px 0px;
+    background-color: red;
+}
+
+
+
+
+/* MEDIA QUERRY */
+
+
+/* DISPOSITIVOS MÓVEIS */
+@media (min-width: 480px) {
+    .menu-title > h1{
+        font-size: 3.5rem;
+    }
+
+}
+
+/* TABLETS */
+@media (min-width: 768px) {
+    .menu-title > h1{
+        font-size: 4rem;
+    }
+}
+
+/* LAPTOPS */
+@media (min-width: 1024px) {
+    .menu-title > h1{
+        font-size: 5rem;
+    }
+}
+
+/* DESKTOPS */
+@media (min-width: 1200px) {
+    .menu-title > h1{
+        font-size: 6rem;
+    }
+}
+
+/* SUPERIORES */
+@media (min-width: 1201px) {
+    .menu-title > h1{
+        font-size: 8rem;
+    }
+}
