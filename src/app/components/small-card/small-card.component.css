@@ -1,0 +1,66 @@
+section{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 90px;
+    overflow-y: hidden;
+}
+
+section > img{
+    width: 120px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.second-content > h1{
+    font-size: 1rem;
+}
+
+.second-content > p{
+    font-size: .8rem;
+}
+
+
+
+
+
+
+/* MEDIA QUERRY */
+
+/* TABLETS */
+@media (min-width: 768px) {
+    section{
+        width: 350px;
+        height: 120px;
+    }
+    section > img{
+        width: 150px;
+    }
+
+}
+
+/* LAPTOPS */
+@media (min-width: 1024px) {
+    section{
+        width: 450px;
+        height: 150px;
+    }
+    section > img{
+        width: 180px;
+        
+    }
+}
+
+/* DESKTOPS */
+@media (min-width: 1200px) {
+    section{
+        width: 600px;
+    }
+    .second-content > h1{
+        font-size: 1.4rem;
+    }
+    
+    .second-content > p{
+        font-size: 1rem;
+    }
+}

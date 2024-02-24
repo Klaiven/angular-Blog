@@ -1,0 +1,36 @@
+.article_main{
+    margin-bottom: 30px;
+}
+.article_second{
+    display: grid;
+    gap: 10px;
+}
+
+
+
+
+
+/* MEDIA QUERRY */
+
+/* TABLETS */
+@media (min-width: 768px) {
+    .articles{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .article_main{
+        margin-right: 80px;
+        margin-bottom: 0px;
+    }
+}
+
+/* LAPTOPS */
+@media (min-width: 1024px) {
+    
+}
+
+/* DESKTOPS */
+@media (min-width: 1200px) {
+}
