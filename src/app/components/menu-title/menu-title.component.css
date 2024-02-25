@@ -5,6 +5,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
     margin: 15px;
+    cursor: pointer;
 }
 .menu-title > hr{
     margin: 10px 0px;

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu-title',
@@ -8,5 +9,14 @@ import { Component } from '@angular/core';
   styleUrl: './menu-title.component.css'
 })
 export class MenuTitleComponent {
+
+  constructor(private router: Router){}
+
+  menu(){
+
+    this.router.navigate(['']);
+    
+  }
+
 
 }

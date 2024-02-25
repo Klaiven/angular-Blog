@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-small-card',
@@ -18,10 +19,16 @@ export class SmallCardComponent {
   @Input()
   cardDescriptions = ""
 
-  constructor(){}
+  @Input()
+  Id:string = "0"
+
   
-  acessar(){
-    window.open('https://www.google.com', '_blank')
+  constructor(private router: Router){}
+
+  acessar(Id: string){
+
+    this.router.navigate(['/content', Id]);
+    
   }
 
 }
